@@ -47,7 +47,7 @@ def mask_json_customer_code(data):
 def send_msg_by_server(send_key, title, content):
     push_url = f'https://sctapi.ftqq.com/{send_key}.send'
     data = {
-        'text': title,
+        'title': title,
         'desp': content
     }
     try:
